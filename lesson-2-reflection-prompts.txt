@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+通过git init初始化版本库，系统显示Initialized empty Git repository in XXX；
+使用ls -a查看文件夹中文件，包括隐藏文件；
+而后使用git status 查看最后提交后更改的文件。
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+暂存区能够仅跟踪目录中的某些文件，并对其绑定到单一提交，作为一个commit，添加到仓库。
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
