@@ -42,7 +42,11 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
 合并分支提交会同时存储其两个父提交的信息。
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+自动合并，由git自动执行，操作较为简洁
+手动合并，处理对原始版本的不同修改的合并问题
