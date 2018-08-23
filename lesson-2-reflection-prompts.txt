@@ -20,7 +20,25 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+创建不同类型的版本，例如不同的语言版本。
+
+协同工作，创建新分支；
+当需要处理新的任务时，创建新分支；
+制作不同的内容时，创建新分支；
+每次当切换为创建新的功能或者纠正bug时，创建一个新的分支；
+将其视为上下文切换context switching。
+
+git 分支使项目保持条理性，尤其当公开分享项目时。
+master分支是产品质量分支，绝对不会崩溃，始终能够运转；
+开发分支，包括正在进行的项目内容；
+实验性分支experimental branch 或者一些独特功能分支feature branches，这些是你正在研究的内容，完全料到会崩溃，你想要与他人分享这些内容，但是明白它们不是正式版内容。
+分支不仅有助于公开合作，还有助于与自己合作。
+
+
 How do the diagrams help you visualize the branch structure?
+
+在创建了分支的地方，画出分支，并展示分支上的提交，直观查看分支。
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
